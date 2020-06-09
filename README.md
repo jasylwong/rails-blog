@@ -1,4 +1,4 @@
-# Connect Four
+# Connect Four 🔵🔵🔵🔵
 
 ## Key concepts covered:
 - querySelector()
