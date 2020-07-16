@@ -6,7 +6,7 @@ class PostsController < ApplicationController
   def show
     @post = Post.find(params[:id])
   end
-
+ 
   def new
   end
 
@@ -15,7 +15,6 @@ class PostsController < ApplicationController
     # render plain: post_params.inspect
     @post = Post.new(post_params)
     @post.save
-    puts(params)
     redirect_to @post
   end
 
